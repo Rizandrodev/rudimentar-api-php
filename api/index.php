@@ -3,6 +3,7 @@
 $data = [];
 
 // Request
+
 if (isset($_GET['option'])) {
     switch ($_GET['option']) {
         case 'status':
